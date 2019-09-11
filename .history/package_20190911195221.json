@@ -1,0 +1,26 @@
+{
+  "name": "docker-class",
+  "version": "1.0.0",
+  "description": "aula sobre docker",
+  "main": "index.js",
+  "scripts": {
+    "production": "pm2-runtime start index.js",
+    "test": "npm test",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelomanchester/docker-class.git"
+  },
+  "author": "Marcelo Manchester e Matheus Raz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelomanchester/docker-class/issues"
+  },
+  "homepage": "https://github.com/marcelomanchester/docker-class#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nodemon": "^1.19.2"
+  }
+}
